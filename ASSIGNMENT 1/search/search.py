@@ -221,11 +221,14 @@ def aStarSearch(problem, heuristic=nullHeuristic):
         path = move_dict[str(state)]
         # check if the state is goal
         if problem.isGoalState(state):
+            print(move_dict)
             moves = path
             break
         
         # state is explored
         explored.append(state)
+        # print(state, end=' ')
+        # print(move_dict)
 
         for child in problem.getSuccessors(state):
             # path to child node
@@ -240,6 +243,8 @@ def aStarSearch(problem, heuristic=nullHeuristic):
                     move_dict[str(newState)] = newPath
                 elif str(newState) not in move_dict.keys():
                     move_dict[str(newState)] = newPath
+                # print(child)
+                # print(heuristic(newState, problem))
 
     return moves
 

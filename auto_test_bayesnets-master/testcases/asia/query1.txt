@@ -1,0 +1,1 @@
+dysp=yes;lung=yes,bronc=no

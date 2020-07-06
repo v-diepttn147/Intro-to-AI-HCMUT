@@ -1,0 +1,1 @@
+I=Thap,D=Kho,S=Cao;L=Yeu,G=B

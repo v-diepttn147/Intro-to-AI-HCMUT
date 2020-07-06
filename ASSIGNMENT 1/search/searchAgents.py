@@ -380,7 +380,7 @@ def cornersHeuristic(state, problem):
         return 0
     
     heuristic = max([util.manhattanDistance(current_state, corner) for corner in unexplored_corners])
-    
+    # print(heuristic, end=' ')
 
     return heuristic
     # return 0 # Default to trivial solution
@@ -489,7 +489,7 @@ def foodHeuristic(state, problem):
         return 0
     for i in range(len(foodGrid)):
         foodList.append(mazeDistance(position, foodGrid[i], problem.startingGameState))
-
+    
     return max(foodList)
 
 class ClosestDotSearchAgent(SearchAgent):

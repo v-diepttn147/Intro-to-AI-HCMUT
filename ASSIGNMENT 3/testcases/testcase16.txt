@@ -1,0 +1,1 @@
+CO2Report=7.5+,XrayReport=Normal,GruntingReport=yes,LVHreport=yes;

@@ -1,0 +1,16 @@
+decorator==4.4.2
+future==0.18.2
+joblib==0.15.1
+networkx==2.4
+numpy==1.19.0
+pandas==1.0.5
+patsy==0.5.1
+pgmpy==0.1.10
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+scipy==1.5.0
+six==1.15.0
+statsmodels==0.11.1
+torch==1.5.1
+tqdm==4.47.0
